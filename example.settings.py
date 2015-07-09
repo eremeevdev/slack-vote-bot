@@ -1,0 +1,3 @@
+# -*- coding: utf-8 -*-
+
+API_TOKEN = 'xoxb-XXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'

@@ -1,0 +1,5 @@
+votemachine:
+    build: .
+    command: python /usr/src/votemachine/votemachine.py
+    volumes:
+        - .:/usr/src/votemachine
