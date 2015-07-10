@@ -203,6 +203,9 @@ class VoteBot:
 
             response = self.vote_machine.vote(data['user'], value)
 
+        if not response:
+            return
+
         info = self.sc.api_call('users.info', user=data['user'])
         info = json.loads(info)
         user_name = info['user']['name']
